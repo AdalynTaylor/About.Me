@@ -1,5 +1,10 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
 .navBar{
-    background-color: #333;
+    
     overflow: hidden;
 }
 .navBar a{
@@ -25,20 +30,8 @@
     background-color: #04AA6D;
     color:blue;
 }
-.famImg{
-    background-image: url(../Images/myFamily.jpg);
-    transform: rotate(270deg);
 
-    filter: blur(6px);
-    -webkit-filter:blur(6px);
 
-    height: 1000px;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
 .bg-text {
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4); 
@@ -50,7 +43,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 80%;
+    filter:blur(0px);
+    
     padding: 20px;
     text-align: center;
   }
@@ -65,7 +59,22 @@
     left: 50%;
     transform: translate(-50%, -175%);
     z-index: 2;
-    width: 80%;
+    
     padding: 20px;
     text-align: center;
   }
+.bg-image {
+        margin: 0;
+        padding: 0;
+    
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+
+        width:99vw;
+        height:99vh;
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+}
