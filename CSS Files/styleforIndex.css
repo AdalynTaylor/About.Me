@@ -78,3 +78,9 @@ body{
         background-size: contain;
 
 }
+.div summary{
+    align-self: flex-end;
+}
+.div .phone{
+    float: right;
+}
