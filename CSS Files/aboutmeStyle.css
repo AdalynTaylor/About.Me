@@ -25,3 +25,16 @@
     background-color: #04AA6D;
     color:blue;
 }
+
+.redcated{
+    color: black;
+    background-color: black;
+    white-space:nowrap;
+    
+    border:1px dotted #555;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+body{
+    background-color: #d3d3d3 ;
+    
+}
