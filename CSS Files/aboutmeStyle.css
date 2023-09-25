@@ -49,3 +49,14 @@ details{
 summary{
     background-color: transparent;
 }
+
+@media print{
+    body *:not(#myCv):not(#myCv *){
+        visibility: hidden;
+    }
+    #myCv{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

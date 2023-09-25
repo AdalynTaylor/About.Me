@@ -25,6 +25,9 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 33px;
 }
 .navBar a.active{
     background-color: #04AA6D;
@@ -84,8 +87,5 @@ body{
 .div .phone{
     float: right;
 }
-details{
-    background-color: #333;
-    position: absolute;
-    margin-left: 500px;
-}
+
+
