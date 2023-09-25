@@ -1,6 +1,9 @@
 .navBar{
+    
     background-color: #333;
     overflow: hidden;
+    transition: 0.6s;
+    padding: 10px;
 }
 .navBar a{
     float: left;
@@ -37,4 +40,12 @@
 body{
     background-color: #d3d3d3 ;
     
+}
+details{
+    background-color: #333;
+    position: absolute;
+    margin-left: 500px;
+}
+summary{
+    background-color: transparent;
 }

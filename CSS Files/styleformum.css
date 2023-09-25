@@ -34,3 +34,8 @@ width: 500px;
 .mumPNG{
     float: right;
 }
+details{
+    background-color: #333;
+    position: absolute;
+    margin-left: 500px;
+}

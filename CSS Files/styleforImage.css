@@ -121,3 +121,8 @@ body{
     background-color: #333;
     overflow: hidden;
 }
+details{
+  background-color: #333;
+  position: absolute;
+  margin-left: 500px;
+}
